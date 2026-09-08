@@ -1,4 +1,4 @@
-package com.spring_store.SpringStore.models;
+package com.spring_store.springstore.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
