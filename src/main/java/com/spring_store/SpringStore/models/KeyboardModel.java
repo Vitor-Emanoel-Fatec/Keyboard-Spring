@@ -1,12 +1,12 @@
-package com.spring_store.springstore.models;
+package com.spring_store.SpringStore.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "keyboard")
-public class keyboard {
+public class KeyboardModel {
     @Id
-    private int id;
+    private Integer id;
     private String marca;
     private String modelo;
     private String cor;
@@ -48,7 +48,7 @@ public class keyboard {
         return switch_color;
     }
 
-    public void setSwitch_color(String switch_color){
+        public void setSwitch_color(String switch_color){
         this.switch_color = switch_color;
     }
 }

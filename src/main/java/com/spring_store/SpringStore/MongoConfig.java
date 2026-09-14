@@ -1,4 +1,4 @@
-package com.spring_store.springstore;
+package com.spring_store.SpringStore;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
@@ -17,7 +17,6 @@ public class MongoConfig {
 
     @Bean
     public MongoTemplate mongoTemplate() {
-
-        return new MongoTemplate(mongoClient(), "playlist");
+        return new MongoTemplate(mongoClient(), "keyboard_store");
     }
 }

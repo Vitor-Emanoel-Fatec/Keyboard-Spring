@@ -1,9 +1,9 @@
-package com.spring_store.springstore.repositories;
+package com.spring_store.SpringStore.repositories;
 
-import com.spring_store.springstore.models.KeyboardModel;
+import com.spring_store.SpringStore.models.KeyboardModel;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface KeyboardRepository extends MongoRepository<KeyboardModel,String> {
+public interface KeyboardRepository extends MongoRepository<KeyboardModel,Integer> {
 }
